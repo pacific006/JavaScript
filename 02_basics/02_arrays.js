@@ -14,4 +14,14 @@ const another_array=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
 //flat function 
 const usalbleAnotherArray=another_array.flat(Infinity)
 // console.log(usalbleAnotherArray);
+console.log(Array.isArray("pacifc")); //false
+console.log(Array.from("pacific"));//make array of all chars
+
+let score1=100
+let score2=200
+let score3=300
+
+console.log(Array.of(score1,score2,score3,score1));
+
+
 
